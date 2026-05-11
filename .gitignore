@@ -1,5 +1,5 @@
 .yarn.installed
-fxmanifest.lua
+# fxmanifest.lua  -- atlasrp fork ships the generated manifest; rebuild via release CI or bun run build
 
 # Logs
 logs
@@ -87,7 +87,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist  -- atlasrp fork ships the compiled server bundle (dist/build.js)
 
 # Gatsby files
 .cache/
